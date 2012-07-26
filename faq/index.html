@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    
+    <title>Fucking Accessible FAQ</title>
+
+    <!-- styles -->
+    <style type="text/css" media="screen">
+        body {color:#000; background:#fff; padding:0 1em 1em; margin:0; font-family:helvetica,sans-serif;}
+        a {color:#03C; text-decoration:none;}
+        a:hover {text-decoration:none; background:#FF6;}
+        a:active {color:#f90; border:none;}
+        h1 {margin:0 0 .25em; font-size:1.5em;}
+        h2 {margin:1em 0 0.35em; font-size:1.3em; border-bottom:1px solid #ddd; padding-bottom:0.5em; color:#333;}
+        h3 {font-size:1.2em; line-height:1.35em; cursor:pointer; margin:0;}
+        h3 a {display:block; padding:0.25em;}
+
+        p.breadcrumbs {font-size:0.9em; color:#999;}
+        p.breadcrumbs a {text-decoration:underline; color:#999;}
+
+        div.answer {margin-bottom:2em; border-left:5px solid #ddd; padding-left:1em;}
+        ul.showhideanswers {float:right; list-style-type:none; margin:0;}
+        a.showall, a.hideall {cursor:pointer; padding:0.25em;}
+    </style>
+
+    <!-- disable show/hide all links when javascript is off -->
+    <noscript>
+        <style type="text/css" media="screen">
+            .showhideanswers {display:none;}
+            h3 a {text-decoration:none;}
+        </style>
+    </noscript>
+
+    <!-- include jquery -->
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <!-- include fa-faq.js script -->
+    <script type="text/javascript" src="fafaq.js"></script>
+
+</head>
+
+<body>
+    
+    <p class="breadcrumbs"><a href="/" title="Link to the website homepage.">YourFuckingSite.tld</a> / FAQ</p>
+    
+    <ul class="showhideanswers">
+        <!-- this will be hidden when JavaScript is disabled -->
+        <li><a class="showall">Show all answers</a></li>
+        <li><a class="hideall">Hide all answers</a></li>
+    </ul>
+    
+    <h1><a href="index.html" title="Link to this FAQ page.">Fucking Accessible FAQ</a></h1>
+
+    <h2>Category Heading</h2>
+
+    <h3 id="why">
+        <a href="#why" title="Click this link and copy the URL from the web browser address bar for a direct link to this particular FAQ.">Why did you fucking make this fucking accessible FAQ?</a>
+    </h3> 
+    
+    <div class="answer">
+        <p>When a question is asked I want to be able to easily send a link to an answer. The answer should also be visible with JavaScript disabled.</p> 
+        <p>I want a FAQ that is simple to edit, hence the single <abbr title="Hypertext Markup Language">HTML</abbr> page with embedded CSS and JavaScript. The only dependence is <a href="http://jquery.com" titl="The 'write less, do more' JavaScript library.">jQuery</a>.</p>
+    </div>
+
+    <h3 id="angry">
+        <a href="#angry" title="Click this link and copy the URL from the web browser address bar for a direct link to this particular FAQ.">Are you fucking angry?</a>
+    </h3> 
+    
+    <div class="answer">
+        <p>Sometimes.</p>
+    </div>
+
+    <h3 id="wtf">
+        <a href="#wtf" title="Click this link and copy the URL from the web browser address bar for a direct link to this particular FAQ.">What the fuck?</a>
+    </h3> 
+    
+    <div class="answer">
+        <p>Hey. <a href="http://simongriffee.com/jimmyboss/files/bnice.mp3" title="Be fucking nice.">Take it easy</a>.</p>
+    </div>
+
+</body>
+</html>
