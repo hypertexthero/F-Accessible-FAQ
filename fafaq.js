@@ -5,9 +5,9 @@
     $(document).ready(function(){
         $("div.answer").hide();
         $("h3").click(function(){
-            $(this).next().toggle('fast');
+            $(this).next().toggle("fast");
             // trying to get the H3 to turn black when clicking: http://api.jquery.com/toggleClass/
-            $(this).toggleClass('darkheadings');
+            $(this).toggleClass("darkheadings");
             // stopping local anchor from being followed so the page doesn't jump
             // return false;
         });
@@ -16,18 +16,18 @@
         $(function() {
             if(location.hash != "") {
                 // $(location.hash + ":hidden").toggle('fast').prev("h3").toggleClass('darkheadings');
-                $(location.hash).next("div").toggle('fast').prev("h3").toggleClass('darkheadings');
+                $(location.hash).next("div").toggle("fast").prev("h3").toggleClass("darkheadings");
             }
         });
 
         // http://andylangton.co.uk/jquery-show-hidecomment by morvi on 10.01.2010 at 23:46
-        $('a.hideall').click(function() {
-            $('div.answer').hide('fast');
-            $('h3').removeClass('darkheadings');
+        $("a.hideall").click(function() {
+            $("div.answer").hide("fast");
+            $("h3").removeClass("darkheadings");
         });
-        $('a.showall').click(function() {
-            $('div.answer').show('fast');
-            $('h3').addClass('darkheadings');
+        $("a.showall").click(function() {
+            $("div.answer").show("fast");
+            $("h3").addClass("darkheadings");
         });
 
     });
