@@ -1,15 +1,15 @@
-body {color:#000; background:#fafafa; padding:0 1em 1em; margin:0; font-family:helvetica,sans-serif;}
+body {color:#000; background:#fafafa; padding:0 1em 1em; margin:0; font-family:helvetica,sans-serif; line-height:1.5em;}
 a {color:#0074BD; text-decoration:none; border-bottom:1px solid #eee;}
 a:visited {color:#17B42A;}
 a:hover {text-decoration:none; background:#ffc;}
 a:active {color:#f90; border:none;}
 h1 {margin:0 0 0.25em; font-size:1.5em; font-weight:normal;}
-h2 {margin:1em 0 0.35em; font-size:1.3em; border-bottom:1px solid #eee; padding-bottom:0.25em; color:#333; font-weight:normal;}
+h2 {margin:1em 0 0.35em; font-size:1.3em; font-weight:normal;}
 h3 {font-size:1.2em; line-height:1.35em; cursor:pointer; margin:0; font-weight:normal;}
 h3 a {display:block; padding:0.25em;}
 h3.darkheadings a {color:#333;}
-p.breadcrumbs {font-size:1em; color:#ccc;}
-p.breadcrumbs a {text-decoration:underline; color:#999;}
+p.breadcrumbs {font-size:0.9em; color:#999; margin-bottom:2em;}
 div.answer {margin-bottom:2em; border-left:5px solid #eee; padding-left:1em;}
+div.answer p:first-child {margin-top:0; padding-top:1em;}
 ul.showhideanswers {float:right; list-style-type:none; margin:0;}
 a.showall, a.hideall {cursor:pointer;}
