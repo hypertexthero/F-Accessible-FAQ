@@ -11,7 +11,7 @@ Deployment
 
 **Not-so-geeky:**
 
-1. Download and copy the following files into a folder called such as /faq/ on your web server: 
+1. [Download](https://github.com/hypertexthero/Fucking-Accessible-FAQ/archive/master.zip "Click to download the whole archive to your computer.") and copy the following files into a folder called such as /faq/ on your web server: 
     - [index.html](https://raw.github.com/hypertexthero/Fucking-Accessible-FAQ/master/index.html)
     - [fafaq.css](https://raw.github.com/hypertexthero/Fucking-Accessible-FAQ/master/fafaq.css)
     - [fafaq.js](https://raw.github.com/hypertexthero/Fucking-Accessible-FAQ/master/fafaq.js)
