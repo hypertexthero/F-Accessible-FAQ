@@ -3,7 +3,7 @@ Fucking-Accessible-FAQ
 
 <img src="casino-robert-deniro-joe-pesci.jpg" alt="Robert DeNiro and Joe Pesci in the film Casino." width="480">
 
-_Robert DeNiro talking to Joe Pesci in the film [Casino]( "A classic by Martin Scorcese.")._
+_Robert DeNiro talking to Joe Pesci in the film [Casino](http://en.wikipedia.org/wiki/Casino_%28film%29 "A classic by Martin Scorcese.")._
 
 An accessible HTML/CSS/JavaScript FAQ page. See [an example](http://hypertexthero.com/faq/).
 
