@@ -15,3 +15,5 @@ ul.showhideanswers {float:right; list-style-type:none; margin:0; font-size:0.9em
 ul.languages {float:right; list-style-type:none; margin:0; font-size:0.9em; text-align:right; clear:both;}
 .selected a {color:#999; border:0;}
 a.showall, a.hideall {cursor:pointer;}
+img {display:block;}
+.noborder {text-decoration:none; border:0 none;}
