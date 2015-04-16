@@ -1,6 +1,10 @@
 Fucking-Accessible-FAQ
 ======================
 
+<img src="casino-robert-deniro-joe-pesci.jpg" alt="Robert DeNiro and Joe Pesci in the film Casino." width="480">
+
+_Robert DeNiro talking to Joe Pesci in the film [Casino]( "A classic by Martin Scorcese.").
+
 An accessible HTML/CSS/JavaScript FAQ page. See [an example](http://hypertexthero.com/faq/).
 
 When a question is asked I want to be able to easily send a link to an answer located in a single HTML page.
