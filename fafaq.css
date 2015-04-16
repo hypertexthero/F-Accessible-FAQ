@@ -17,3 +17,8 @@ ul.languages {float:right; list-style-type:none; margin:0; font-size:0.9em; text
 a.showall, a.hideall {cursor:pointer;}
 img {display:block;}
 .noborder {text-decoration:none; border:0 none;}
+@media (max-width: 960px) {
+	img {
+  max-width:100% !important;
+  height:auto !important; /*border:0 !important; border-bottom:3px solid #000 !important;*/
+  }
