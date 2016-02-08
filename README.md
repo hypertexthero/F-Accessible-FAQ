@@ -1,4 +1,4 @@
-Fucking-Accessible-FAQ
+F*!@#$%-Accessible-FAQ
 ======================
 
 <img src="casino-robert-deniro-joe-pesci.jpg" alt="Robert DeNiro and Joe Pesci in the film Casino." width="480">
@@ -21,12 +21,12 @@ Deployment
     - [fafaq.js](https://raw.github.com/hypertexthero/Fucking-Accessible-FAQ/master/fafaq.js)
     - [jquery.min.js](https://raw.github.com/hypertexthero/Fucking-Accessible-FAQ/master/jquery.min.js)
 2. Edit index.html to add new questions and save the file 
-3. You now have your own fucking accessible FAQ at YourFuckingSite.tld/faq/
+3. You now have your own f*!@#$% accessible FAQ at YourF*!@#$%Site.tld/faq/
 
 **Geekier through Github (need git installed on your webserver):**
 
-1. [Fork this project](https://github.com/hypertexthero/Fucking-Accessible-FAQ/fork_select)
+1. [Fork this project](https://github.com/hypertexthero/F-Accessible-FAQ/fork_select)
 2. Edit index.html to add new questions and commit your changes
-3. ssh into the web server where YourFuckingSite.tld is hosted and cd into the public directory
-4. `git clone git://github.com/YOURGITHUBUSERNAME/Fucking-Accessible-FAQ.git faq` **(note the Git Read-Only protocol)**
-5. You now have your own fucking accessible FAQ at YourFuckingSite.tld/faq/
+3. ssh into the web server where YourF*!@#$%Site.tld is hosted and cd into the public directory
+4. `git clone git://github.com/YOURGITHUBUSERNAME/F-Accessible-FAQ.git faq` **(note the Git Read-Only protocol)**
+5. You now have your own f*!@#$% accessible FAQ at YourF*!@#$%Site.tld/faq/
